@@ -17,10 +17,50 @@ body {
     background-image: url("/images/background\ .avif");
     background-repeat: no-repeat;
     background-size: cover;
+    position: relative;
 }
 
 .split.right {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+}
+
+h1 {
+    color: white;
+    font: 700;
+    font-size: 100px;
+    font-family: Norse, sans-serif;
+    background-color: dark;
+    opacity: 1;
+}
+
+#banner {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 120px;
+    left: 0px;
+    right: 0px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+#banner > img {
+    height: auto;
+    max-width: 15%;
+}
+
+.credits {
+    color: white;
+    font-style: italic;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.split.left {
+    display: flex;
+    flex-direction: column-reverse;
 }
