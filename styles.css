@@ -94,6 +94,43 @@ button {
     padding: 20px 50px;
 }
 
-fieldset {
+.main-section {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 50px;
+}
+
+.main-form {
     border: none;
+    display: flex;
+    gap: 100px;
+}
+
+.form-div {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+label {
+    color: rgba(0, 0, 0, 0.7);
+}
+
+input {
+    border-color: #e5e7eb;
+    border-style: solid;
+    opacity: 0.4;
+    width: 120%;
+    border-radius: 5px;
+}
+
+input:invalid {
+    border: none;
+    outline: 2px solid red;
+    border-radius: 5px;
+}
+
+input:focus {
+    box-shadow: 10px;
+    outline: 2px solid blue;
 }
