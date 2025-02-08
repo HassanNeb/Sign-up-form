@@ -14,7 +14,7 @@ body {
 }
 
 .left {
-    background-image: url("/images/background\ .avif");
+    background-image: url("/images/unsplash.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
